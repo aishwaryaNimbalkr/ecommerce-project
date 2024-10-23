@@ -1,0 +1,38 @@
+.box:hover{
+    transform: scaleY(105%)scaleX(105%);
+    transition: 0.3s;
+}
+
+.hi {
+    animation: bounce-out-down 0.8s ease infinite;
+  }
+  @keyframes bounce-out-down {
+    100% { transform: translateY(0); }
+   
+    0% {
+      opacity: 1;
+      transform: translateY(20px);
+    }
+  }
+
+  .em {
+    animation: bounce-out-down 0.8s ease infinite;
+  }
+  @keyframes bounce-out-down {
+    100% { transform: translateY(0); }
+   
+    0% {
+      opacity: 1;
+      transform: translateY(5px);
+    }
+  }
+
+  
+
+  .box2{
+    @media screen and (max-width :1000px) {
+      display:flex;
+     flex-direction: column;
+    }
+  }
+ 
